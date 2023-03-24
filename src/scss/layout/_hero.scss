@@ -1,0 +1,76 @@
+.hero {
+  background-image: url(../images/hero.jpeg);
+
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  //  https://blog.hubspot.es/website/opacidad-css
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  position: relative;
+  top: 1.2rem;
+
+  &__icon {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    &-chevron {
+      position: relative;
+      bottom: 10rem;
+    }
+  }
+  &__text {
+    position: relative;
+    bottom: 8.5rem;
+
+    &-title {
+      color: white;
+      font-weight: 800;
+      font-size: 2.25rem;
+    }
+    &-subtitle {
+      color: grey;
+      font-size: 1, 3rem;
+      margin: 0.5rem;
+    }
+    &-button {
+      background-color: white;
+      border-radius: 0.25rem;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      text-align: center;
+      white-space: nowrap;
+      line-height: 1;
+      height: 2.5rem;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      border: none;
+
+      color: inherit;
+
+      padding: 0 1rem;
+
+      font-size: 1rem;
+
+      font-family: Brandon, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+      text-transform: uppercase;
+
+      text-decoration: none;
+
+      cursor: pointer;
+    }
+  }
+}
